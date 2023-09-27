@@ -245,6 +245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9968d437f5cb064984e8d7911cb3015, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  editorString: Youmu
 --- !u!4 &1983928658
 Transform:
   m_ObjectHideFlags: 0
