@@ -494,6 +494,7 @@ GameObject:
   - component: {fileID: 1983928660}
   - component: {fileID: 1983928661}
   - component: {fileID: 1983928662}
+  - component: {fileID: 1983928663}
   m_Layer: 0
   m_Name: TestObject
   m_TagString: Untagged
@@ -638,6 +639,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1983928663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983928656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27cde2ab826efbb45895043f9a9a69ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Numbers: 10
+  TargetRounds: 69
 --- !u!1 &2029210263
 GameObject:
   m_ObjectHideFlags: 0
