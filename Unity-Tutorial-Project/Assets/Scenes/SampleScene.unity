@@ -140,6 +140,7 @@ GameObject:
   - component: {fileID: 121650521}
   - component: {fileID: 121650520}
   - component: {fileID: 121650528}
+  - component: {fileID: 121650529}
   m_Layer: 0
   m_Name: CloneObject
   m_TagString: Untagged
@@ -324,9 +325,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3a1ad8ac57f7ee4e821c5d681761d53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cloning: {fileID: 121650519}
-  clonedObject: {fileID: 0}
-  speed: 1
+  toClone: {fileID: 0}
+--- !u!114 &121650529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121650519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf0dc6f0bb4f5244a7a02cf7b8fd457, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -700,6 +711,7 @@ GameObject:
   - component: {fileID: 1983928662}
   - component: {fileID: 1983928663}
   - component: {fileID: 1983928664}
+  - component: {fileID: 1983928665}
   m_Layer: 0
   m_Name: TestObject
   m_TagString: Untagged
@@ -872,6 +884,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: 50
   startPoint: 20
+--- !u!114 &1983928665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983928656}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf0dc6f0bb4f5244a7a02cf7b8fd457, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2029210263
 GameObject:
   m_ObjectHideFlags: 0
